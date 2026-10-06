@@ -1,0 +1,555 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 44300)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 42196)
+VBCSCompiler prewarm took 92.19 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-gustavo62356826" at "2026-10-01T14:39:51.9641686Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'pt' Physical Memory: 16070 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-01T14:39:51Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 24156, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'. Current supported versions are: 1.0,1.1,1.2,1.3,1.4,1.4.1,1.5,1.6,1.7,1.8,1.9,1.10,1.11,1.12
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-gustavo62356826"
+[Licensing::IpcConnector] LicenseClient-gustavo62356826 channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-gustavo62356826-6000.6.3 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 45088)
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
+-projectpath
+C:\Users\gustavo62356826\Blender, bonecão
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-gustavo62356826
+-hubSessionId
+82dc9944-9e47-4864-810e-aac46df1f68e
+-accessToken
+Vt8V1GIDl9cuTUJK_7lToW3aYuUK7U6uUztrusVxvao004f
+Successfully changed project path to: C:\Users\gustavo62356826\Blender, bonecão
+C:/Users/gustavo62356826/Blender, bonecão
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [20204]  Target information:
+
+Player connection [20204]  * "[IP] 10.16.108.31 [Port] 55504 [Flags] 2 [Guid] 2956035225 [EditorId] 2956035225 [Version] 1048832 [Id] WindowsEditor(7,L06003-033221) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20204] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20204] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-43916" after 2.3 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-gustavo62356826-6000.6.3" at "2026-10-01T14:39:56.4807077Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 45088, path: "C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              ce09b1d1b5f8415c96e320fdca38055d
+  Correlation Id:          8f556ba8937632f71184b2d25ff8c09a
+  External correlation Id: 6276369553631861792
+  Machine Id:              CpTExqRmmkp6frINb/KqMthtfC0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-gustavo62356826-6000.6.3" (connect: 4.37s, validation: 0.16s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-gustavo62356826-6000.6.3-notifications" at "2026-10-01T14:39:56.66201Z"
+[Licensing::Module] Connected to LicensingClient (PId: 45088, launch time: 0.02, total connection time: 4.55s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token Vt8V1GIDl9...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Z5FZ-JSKJ-FZM8-SFDC-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 4.86s
+[Licensing::Module] Licensing is initialized (took 1.84s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 60acde84b8abb5fbdd8f668ac8b04084
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/gustavo62356826/Blender, bonecãoSerialized file "ProjectSettings/DynamicsManager.asset" contains a PhysicsManager object at version 11, below the supported minimum (13). Open and re-save the file to upgrade.
+Unity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.3f1 (45d8eee7de74)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gustavo62356826/Blender, bonecão/Assets
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA RTX 2000 Ada Generation
+[D3D12 Device Filter] Driver Version: 32.0.15.9671
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 16118 MB
+[D3D12 Device Filter] Processor Count: 28
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA RTX 2000 Ada Generation (ID=0x28b0)
+    Vendor:          NVIDIA
+    VRAM:            16118 MB
+    App VRAM Budget: 15350 MB
+    Driver:          32.0.15.9671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.044888 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.215 seconds
+Domain Reload Profiling: 3600ms
+	BeginReloadAssembly (405ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (174ms)
+	initialDomainReloadingComplete (176ms)
+	LoadAllAssembliesAndSetupDomain (625ms)
+		LoadAssemblies (406ms)
+		TypeCache.Refresh (537ms)
+			TypeCache.ScanAssembly (489ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (2217ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (79ms)
+			ProcessInitializeOnLoadMethodAttributes (1678ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 52 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.performance.profile-analyzer@1.4.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.performance.profile-analyzer@2bb26871883c)
+    com.unity.testtools.codecoverage@1.3.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.testtools.codecoverage@19a841221620)
+    com.unity.settings-manager@2.1.1 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86)
+  Built-in packages:
+    com.unity.feature.development@1.0.2 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.feature.development@767aadbc6eb7)
+    com.unity.timeline@6.6.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.ugui@0727b404f3a0)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.test-framework@1.8.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.test-framework@80f691d4262b)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.editorcoroutines@6.6.0 (location: C:\Users\gustavo62356826\Blender, bonecão\Library\PackageCache\com.unity.editorcoroutines@8cd72baa102a)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.59 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/gustavo62356826/Blender, bonecão
+ExitCode: 0 Duration: 0s484ms
+[461/567    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.39 seconds), 1 items updated, 567 evaluated
+AssetDatabase: script compilation time: 2.344131s
+Total cache size 62779260
+Total cache size after purge 62779260, took 00:00:00.0541803
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 6.05 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.586 seconds
+Domain Reload Profiling: 2143ms
+	BeginReloadAssembly (527ms)
+		DisableScriptedObjects (43ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (181ms)
+	LoadAllAssembliesAndSetupDomain (830ms)
+		LoadAssemblies (926ms)
+		TypeCache.Refresh (162ms)
+			TypeCache.ScanAssembly (151ms)
+		AnalyzeDomain (35ms)
+			BuildScriptInfoCaches (31ms)
+	FinalizeReload (587ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Starting new worker id: 0 with log in C:/Users/gustavo62356826/Blender, bonecão/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=588db54b5cf53944bb1f3a30393d5ea9): Total: 6.499 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1769 ms
+		Asset DB Callback time: managed=29 ms, native=609 ms
+		Scripting: domain reloads=1, domain reload time=1699 ms, compile time=2350 ms, other=42 ms
+		Project Asset Count: scripts=834, non-scripts=939
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 617.461ms
+	ApplyChangesToAssetFolders: 1.283ms
+	Scan: 139.883ms
+	Collect global state as custom dependencies: 12.552ms
+	CategorizeScriptCompilationAssets: 139.350ms
+	ProcessAssetsWithTransientArtifactChanges: 56.887ms
+	CategorizeAssets: 11.543ms
+	CompileScripts: 2349.553ms
+	ImportOutOfDateAssets: 642.515ms (604.441ms without children)
+		UnloadImportedAssets: 0.096ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.239ms
+		ImportSchedulerStart: 37.736ms
+	PostProcessAllAssets: 29.615ms
+		MonoPostProcessAllAssets: 29.566ms
+			SyncVS.PostprocessSyncProject 10.124ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 9.282ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.406ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.706ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.337ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.329ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.222ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.204ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.201ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.108ms
+	UnloadStreamsBegin: 1.338ms
+	GenerateScriptTypeHashes: 0.793ms
+	GenerateScriptTypeSerializationHashes: 1.659ms
+	Untracked: 2455.436ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Scanning for USB devices : 1.998ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Blender, bonecão
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Unity-Blonder.unity'
+	Deserialize:            4.253 ms
+	Integration:            38.608 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   42.876 ms
+Unloading 4318 unused Assets / (1.1 MB). Loaded Objects now: 5288.
+Memory consumption went from 342.2 MB to 341.2 MB.
+Total: 7.097600 ms (FindLiveObjects: 0.851400 ms CreateObjectMapping: 0.128000 ms MarkObjects: 5.087000 ms  DeleteObjects: 0.726900 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+Worker ready: AssetImportWorkerHW0 0
+[LAYOUT] About to save layout C:\Users\gustavo62356826\Blender, bonecão\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/gustavo62356826/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+<RI> Initializing input.
+Using Windows.Gaming.Input
+[Project] Loading completed in 22.279 seconds
+	Project init time: 				18.721 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		4.154 seconds
+		Asset Database init time: 		1.983 seconds
+		Global illumination init time: 	0.035 seconds
+		Assemblies load time: 			3.705 seconds
+		Unity extensions init time: 	0.014 seconds
+		Asset Database refresh time: 	6.499 seconds
+	Scene opening time: 			2.971 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790865614104,"processId":43916,"projectLoad":22.278751900000003,"projectInit":18.7214894,"templateInit":0.0,"packageManagerInit":4.1543019,"assetDatabaseInit":1.9834857,"globalIlluminationInit":0.0346656,"assembliesLoad":3.7054087,"unityExtensionsInit":0.0142491,"assetDatabaseRefresh":6.4989004,"sceneOpening":2.9705287}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790865614104,"processId":43916,"editorVersion":"6000.6.3f1 (45d8eee7de74)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=46195e5b53546a543a1a03cf930640a8): Total: 0.079 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Starting new worker id: 1 with log in C:/Users/gustavo62356826/Blender, bonecão/Logs/AssetImportWorkerHW1.log
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/gustavo62356826/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.026s, timestamps: [23.121 - 23.147]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Starting new worker id: 2 with log in C:/Users/gustavo62356826/Blender, bonecão/Logs/AssetImportWorkerHW2.log
+[Worker0] Imported GUID: 1c6bc6f78d1ebd648b0e60f38bf3d261 - Path: Assets/Cor cama.mat - Importer: PreviewImporter -> (ImportResultId: 'a280128be7f9ea96ec7499300ccd71b0') in 0.0740319 seconds
+[Worker0] Imported GUID: b758870906719fe439e4ea76a0375ab5 - Path: Assets/Boneco.mat - Importer: PreviewImporter -> (ImportResultId: '29de68133c800db41e0ea2f9a3a46d8b') in 0.0084159 seconds
+[Worker0] Imported GUID: 0ae51c4db174efd41b599299ffd62473 - Path: Assets/Cor telha.mat - Importer: PreviewImporter -> (ImportResultId: '7117ffd79f61398051ceb3af2e63e545') in 0.0056732 seconds
+[Worker0] Imported GUID: d53f569c7b0c82b41a7875e836a177df - Path: Assets/Plano.mat - Importer: PreviewImporter -> (ImportResultId: '1e0d33433da71a668c45baf23e7a0d18') in 0.0055093 seconds
+[Worker0] Imported GUID: cbd076059cda77a4789829491e433199 - Path: Assets/arvore.mat - Importer: PreviewImporter -> (ImportResultId: '1163dd2e3fb1acc180d4d6414f9a3bc1') in 0.0052758 seconds
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "Vt8V1GID"... (expires: 2026-10-01T16:40:17Z)
+Android Extension - Scanning For ADB Devices 2721 ms
+Android Extension - Scanning For ADB Devices 616 ms
+Worker ready: AssetImportWorkerHW1 1
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 618 ms
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW2 2
+Android Extension - Scanning For ADB Devices 645 ms
+Request Asset Garbage Collect because used heap size increased from 340.6 MB to 0.59 GB, exceeding the threshold of 256.0 MB.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (45.9 MB). Loaded Objects now: 6426.
+Memory consumption went from 0.59 GB to 0.54 GB.
+Total: 11.312500 ms (FindLiveObjects: 0.331800 ms CreateObjectMapping: 0.089700 ms MarkObjects: 8.192600 ms  DeleteObjects: 2.522800 ms)
+
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=437310532204e5842b20037c5ffbc656): Total: 0.083 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=7ebd98fc8973fc144bcd9e0b738447a1): Total: 0.028 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 31.35 ms, found 4 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.515 seconds
+Domain Reload Profiling: 2815ms
+	BeginReloadAssembly (743ms)
+		DisableScriptedObjects (151ms)
+		CreateAndSetChildDomain (204ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (158ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (581ms)
+		TypeCache.Refresh (6ms)
+		AnalyzeDomain (4ms)
+	FinalizeReload (1516ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (606ms)
+No restricted APIs configured; Validation skipped.
+Checking 14 assemblies for restricted APIs found 0 usage(s) in 3 ms
+Refreshing native plugins compatible for Editor in 5.27 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=394387d25b3fda64d9e2cafcc983fe69): Total: 7.523 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1725 ms
+		Asset DB Callback time: managed=702 ms, native=213 ms
+		Scripting: domain reloads=1, domain reload time=4871 ms, compile time=10 ms, other=0 ms
+		Project Asset Count: scripts=834, non-scripts=939
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 6.672ms
+	ApplyChangesToAssetFolders: 0.170ms
+	Collect global state as custom dependencies: 3.432ms
+	ProcessAssetsWithTransientArtifactChanges: 87.830ms
+	CategorizeAssets: 8.497ms
+	CompileScripts: 10.469ms
+	ImportOutOfDateAssets: 1559.580ms (1556.630ms without children)
+		UnloadImportedAssets: 1.604ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.336ms
+		ImportSchedulerStart: 0.991ms
+	PostProcessAllAssets: 900.252ms
+		AssemblyValidation.PostprocessAllAssets 7.733ms
+		PostProcessCallbackCreateDeferredMaterials 7.722ms
+		PostprocessAssetsUpdateCachedIcon 6.602ms
+		ShaderAssetModifiedCallback 4.049ms
+		RaytracingShaderImportPostprocess 3.920ms
+		ComputeShaderImportPostprocess 3.454ms
+		SpeedTreeImporter.PostprocessAllAssets 2.869ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 1.461ms
+		BlockShaderImporter.PostprocessAllAssets 1.388ms
+		VCAutoAddAssetPostprocess 1.265ms
+		XRBuildSystem.XRAssetImported 0.456ms
+		SpriteAtlasDatabase.OnAssetPostprocessCallback 0.390ms
+		MonoPostProcessAllAssets: 699.699ms
+			SyncVS.PostprocessSyncProject 611.667ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 14.562ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 14.420ms
+			AssetPostprocessor.OnPostprocessAllAssets 13.189ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 8.918ms
+			AssetChangedListener.OnPostprocessAllAssets 7.708ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.794ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.615ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.285ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.240ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.859ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.468ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.400ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.305ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.283ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.241ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.219ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.208ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.206ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.193ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.184ms
+			AssetEvents.OnPostprocessAllAssets 0.178ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.118ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.117ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.109ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.102ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.089ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.087ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.086ms
+	PostAssetChangesProfiler: 13.613ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.113ms
+	UnloadStreamsBegin: 0.993ms
+	GenerateScriptTypeHashes: 0.489ms
+	GenerateScriptTypeSerializationHashes: 1.048ms
+	Untracked: 4902.425ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.795 ms
+	Integration:            282.109 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.027 ms
+	Total Operation Time:   283.932 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.748 ms
+	Integration:            12.939 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   13.700 ms
+Unloading 4036 unused Assets / (30.9 MB). Loaded Objects now: 6404.
+Memory consumption went from 0.57 GB to 0.54 GB.
+Total: 15.171300 ms (FindLiveObjects: 0.692500 ms CreateObjectMapping: 0.152700 ms MarkObjects: 12.984500 ms  DeleteObjects: 1.171600 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Importing 'GUID: 1616fbbff7664d14db7c30337767e303 - Path: Assets/Unity-Blonder.unity' with importer (DefaultImporter)
+Imported 'GUID: 1616fbbff7664d14db7c30337767e303' -> (Import Result ID: 'bd6a2a78e8e4b132ebc36a5923593f71') in 0.010 seconds [static dependencies only]. Details - ImportResultOutputID=3f4372206839fb494ecee96a23872d24 DependenciesID=a1f67f71a3aae8eaef55d1b8068a015e StaticDependenciesID=16a1a555825421915c0c1ddb6394fe60 
+Refreshing native plugins compatible for Editor in 6.35 ms, found 4 plugins.
+Asset Pipeline Refresh (id=1f1e4f3062a2a4f4fb818e11ca93db1a): Total: 0.066 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+MonoPathRemapper: Attempts to remap: 21047; Successful remaps: 11096
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\gustavo62356826\Blender, bonecão\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/gustavo62356826/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Killing ADB server in 0,2857113 seconds.
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-gustavo62356826-6000.6.3-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-gustavo62356826-6000.6.3 channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000008AE8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000008AE8, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 5424
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790866077939,"processId":43916,"allocatedMemory":14395649,"memoryLabels":[{"Default":194824},{"Permanent":15516},{"NewDelete":70225},{"Thread":4208712},{"Manager":50272},{"VertexData":8},{"Geometry":816},{"Shader":855870},{"Material":68},{"TextureCache":760},{"GfxDevice":62040},{"GfxThread":9216},{"Animation":952},{"Audio":408},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":172984},{"Input":45280},{"JobScheduler":256},{"TextLib":35926},{"Mono":48},{"ScriptingNativeRuntime":1307568},{"BaseObject":48912},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":13331},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":976856},{"StaticString":3808},{"Utility":2676578},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":18701},{"ScriptManager":18984},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7728},{"WebRequest":4580},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":1080},{"Camera":244953},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":960},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":267641},{"EditorUtility":146003},{"VersionControl":8},{"Undo":931},{"AssetDatabase":2406274},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36881},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":230},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3606},{"Windowing":456},{"Licensing":1527},{"AssetReference":32},{"IPCStream":32}]}
